@@ -1,7 +1,7 @@
 # LP Tracker Project - Living Handoff Document
 
 **CONTINUATION INSTRUCTION FOR AI ASSISTANT:**
-**LP Tracker Project 07** - Continue development of my LP Tracker project. I'll provide a GitHub link to the handoff document.
+**LP Tracker Project 08** - Continue development of my LP Tracker project. I'll provide a GitHub link to the handoff document.
 
 **CRITICAL FIRST STEPS FOR AI ASSISTANT:**
 1. **IMMEDIATELY** create this document as a working version that can be updated throughout the session (use your platform's document/artifact management system)
@@ -164,10 +164,10 @@ User correctly identified that 4 separate sheets would be terrible for actual da
 ### Where We Left Off
 - Architecture decisions finalized
 - Data structure designed but not yet implemented
-- **Existing prototypes** (GitHub URLs - fetch only when needed):
-  - **Handoff Document**: https://github.com/shiloh-nelson/lp-tracker-project/blob/main/lp_tracker_handoff.md
-  - **Sheets Structure**: https://github.com/shiloh-nelson/lp-tracker-project/blob/main/sheets_structure.html (complete 5-sheet Google Sheets structure with sample data and formulas)
-  - **React Interface**: https://github.com/shiloh-nelson/lp-tracker-project/blob/main/lp_tracker_prototype.tsx (polished React interface with card-based layout, tabbed navigation, and comprehensive position tracking)
+- **Existing prototypes** (GitHub raw URLs - AI should only fetch these when actually needed for development):
+  - **Handoff Document**: https://raw.githubusercontent.com/shiloh-nelson/lp-tracker-project/main/lp_tracker_handoff.md
+  - **Sheets Structure**: https://raw.githubusercontent.com/shiloh-nelson/lp-tracker-project/main/sheets_structure.html (complete 5-sheet Google Sheets structure with sample data and formulas)
+  - **React Interface**: https://raw.githubusercontent.com/shiloh-nelson/lp-tracker-project/main/lp_tracker_prototype.tsx (polished React interface with card-based layout, tabbed navigation, and comprehensive position tracking)
 - Ready to begin minimal read-only implementation
 
 ### Immediate Next Steps (Minimal Read-Only First)
@@ -220,7 +220,7 @@ User correctly identified that 4 separate sheets would be terrible for actual da
 - **Complete picture achieved**: First iteration where full project scope was successfully communicated
 
 ### Recommended Handoff Process for Future Sessions
-1. **Start with GitHub link**: Share the handoff document URL: "Continue LP Tracker project: [GitHub URL]"
+1. **Start with GitHub raw link**: Share the handoff document raw URL: "Continue LP Tracker project: [GitHub raw URL]"
 2. **AI fetches and creates working version**: AI reads from GitHub, creates live working version using platform's document system
 3. **Update iteration number**: AI increments the iteration number in the live document
 4. **Save at session end**: User saves the updated working version back to GitHub (same filename: `lp_tracker_handoff.md`)
@@ -232,7 +232,7 @@ User correctly identified that 4 separate sheets would be terrible for actual da
 - **Cross-platform compatibility**: Document works with Claude, ChatGPT, Gemini, and other AI assistants
 
 ### Communication Optimization
-- **Ultra-streamlined startup**: "Continue LP Tracker project: [GitHub URL]" 
+- **Ultra-streamlined startup**: `Continue LP Tracker project: https://raw.githubusercontent.com/shiloh-nelson/lp-tracker-project/main/lp_tracker_handoff.md`
 - **Length efficiency**: Handoff document fetched on-demand rather than consuming context upfront
 - **Reference decisions**: "Update the handoff document with this decision"
 - **Batch context efficiently**: GitHub approach reduces context overhead significantly
